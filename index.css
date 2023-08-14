@@ -1,0 +1,111 @@
+.header-container{
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* header container */
+.icon-profile{
+    width: 32.326px;
+    height: 34px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.logo{
+    width: 84px;
+    height: 42px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.icon-chat{
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+/* profile image */
+.profile-image-container{
+   display: block;
+    position: relative;
+    width: 534px;
+    height: 751.443px;
+    border-radius: 15px;
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.90) 0%, rgba(0, 0, 0, 0.00) 100%), url(images/dog-teddy.jpg), lightgray 50% / cover no-repeat; */
+    background-size: cover;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.dog-info{
+    position: absolute;
+    bottom: 0;
+}
+
+h2{
+    width: 158.784px;
+    /* height: 36.409px; */
+    flex-shrink: 0;    
+    color: #F8F8F8;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 112.5% */
+    /* padding-top: 660px; */
+    margin-bottom: 8px;
+}
+p{
+    /* width: 176px; */
+    /* height: 32px; */
+    flex-shrink: 0;
+    color: #B7B7B7;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+    margin-top: 0;
+    margin-left: 30px;
+}
+
+.like-container{
+    display: block;
+    width: 534px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.icon-cross{
+    flex-shrink: 0;
+    margin-left: 171px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.icon-heart{
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.choice-like{
+    position:  absolute;
+    top:0;
+    left: 0;
+    width: 233.911px;
+    height: 116.264px;
+    transform: rotate(-30deg);
+    flex-shrink: 0;
+    border-radius: 10.381px;
+    margin-top: 50px;
+    margin-left: 10px;
+    }
+.like-el{
+    display: none;
+}
+.unlike-el{
+    display: none;
+}
